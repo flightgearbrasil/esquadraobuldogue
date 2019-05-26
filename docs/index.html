@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+  <link rel="icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'> <!-- Google Fonte -->
+  <link href="https://fonts.googleapis.com/css?family=Bangers" rel="stylesheet" type="text/css"> <!-- Google Fonte -->
+  <title>Esquadrão Buldogue</title>
+  <style type="text/css">*{font-family: "Oswald"; color: white; text-shadow: black 2px 1px 0.5px;} body {background: url("img/back.jpg") fixed; background-size: 100% 100%; font-size: 14px;} b { font-family: "Bangers"; font-size: 28px; font-weight: normal;} img { vertical-align: -5px; } h1 {font-family: "Bangers"; font-weight: normal; font-size: 48px;}</style>
+</style>
+<style type="text/css">
+  @import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+
+  *, *:after, *:before {
+    box-sizing: border-box;
+  }
+  body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5;
+    //color: #444;
+    font-size: 16px;
+  }
+
+  .tabs-container {
+    position: relative;
+    height: 300px;
+    max-width: 98%;
+    margin: 0 auto;
+  }
+  .tabs-container p{
+    margin: 0;
+    padding: 0;
+  }
+  .tabs-container:after {
+    content: '.';
+    display: block;
+    clear: both;
+    height: 0;
+    font-size: 0;
+    line-height: 0;
+    visibility: none;
+  }
+  input.tabs {
+    display: none;
+  }
+  input.tabs + label {
+    line-height: 40px;
+    padding: 0 20px;
+    float: left;
+    background: #444;
+    color: #fff;
+    cursor: pointer;
+    transition: background ease-in-out .3s;
+  }
+  input.tabs:checked + label {
+    color: #000;
+    background: #eee;
+  }
+  input.tabs + label + div {
+    width: 98%;
+    opacity: 0;
+    position: absolute;
+    background: #eee;
+    top: 40px;
+    left: 0;
+    height: auto;
+    padding: 10px;
+    z-index: -1;
+    transition: opacity ease-in-out .3s;
+  }
+  input.tabs:checked + label + div {
+    opacity: 1;
+    z-index: 1000;
+  }
+  div{background-color: transparent !important;}
+  label{ font-family: 'Titillium Web', sans-serif; text-shadow: none;}
+  table{border: 1px solid white; background-color: rgba(255,255,255,.3); }
+  td { padding: 5px; }
+
+</style>
+<style type="text/css">
+  input[type=text], input[type=password], select {
+    padding: 1px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+  <p></p>
+  <div class="tabs-container">
+
+    <input type="radio" name="tabs" class="tabs" id="tab1" checked>
+    <label for="tab1" title="Faça o download de nossas aeronaves, pinturas, cenários....">Central de Downloads</label>
+    <div>
+
+      <p align="center">
+       <img src="img/FAB.png" width="90px" height="90px"/>
+       <img src="img/BTB.png"/>
+       <img src="img/FGLogo.png" width="64px" height="64px"/></p>
+       <h1 align="center">Esquadrão Buldogue</h1><br>
+       <p align="center">
+         <b>Aéronaves utilizadas:</b><br><br>
+         T-27: <a href="https://www.dropbox.com/s/8ymamprnr0891mi/Tucano-T-27.7z?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px" /></a><br>
+         AT-29: <a href="http://longfly.square7.ch/download/AT-29.zip"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+         F-5E / At: 7/1/16: <a href="https://www.dropbox.com/s/2ms7oj5ueo6wq1b/F-5E.7z?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+         C-130: <a href="https://www.dropbox.com/s/83c985cg02g2p58/C130.ZIP?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+         AN-225: <a href="https://github.com/HerbyW/AN-225-Mrija/archive/master.zip"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+         A320: <a href="https://github.com/it0uchpods/A320Family/archive/master.zip"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+         777-300ER: <a href="https://github.com/FGMEMBERS/777/archive/master.zip"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+         777-300ER (Para PC Fraco): <a href="http://www.mediafire.com/file/r0orkx3bvrczl94/777_20130707.zip"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+         777-F: <a href="https://github.com/FGMEMBERS/777F/archive/master.zip"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+         ERJ-195: <a href="https://github.com/YV3399/E-jet-family/archive/master.zip"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+         ERJ-145: <a href="https://github.com/FGMEMBERS/Embraer-ERJ-145/archive/master.zip"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+       </p>
+       <br>
+       <p align="center">
+        <b>Liveries:</b><br><br>
+        Livery Esquadrão Buldogue AT-29: <a href="https://www.dropbox.com/s/9cbxze6r8oaw8t0/AT-29%20-%20Esquadrao%20Buldogue%20Livery.rar?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        Livery Esquadrão Buldogue F-5E: <a href="https://www.dropbox.com/s/nj14ioxzcsa3woi/F-5E%20Esquadrao%20Buldogue%20Livery.rar?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        Livery Esquadrão Buldogue C-130: <a href="https://www.dropbox.com/s/lu7xksys62rawe5/C130%20Esquadrao%20Buldogue%20Livery.rar?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        Livery Presidencial A319: <a href="https://www.dropbox.com/s/cxps2a413anfzp8/FABPresidencialA319.7z?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        Livery Presidencial A320: <a href="https://www.dropbox.com/s/he47bhdpj3phjb1/FABPresidencial.7z?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        Livery FAB Esquadrão Buldogue 777-300ER: <a href="https://goo.gl/9R1wqk"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        Livery FAB Esquadrão Buldogue 777-F: <a href="https://goo.gl/FKz3fd"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        Livery Presidencial ERJ-145: <a href="http://www.mediafire.com/file/vwvxfjv55k78x87/textura-FAB-ERJ-145.rar" target="_blank"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        Livery Presidencial ERJ-195: <a href="http://www.mediafire.com/file/k4ncqjrx52zdtad/Package+1+Embraer+195.zip" target="_blank"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+      </p>
+      <br>
+      <p align="center">
+        <b>Cenários:</b><br><br>
+        SBYS - Cenário / At: 3/5/17: <a href="https://www.dropbox.com/s/t8macbyy02jftni/SBYS%20V2%20-%20%20TerraSync%20Compatible%20V2.7z?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        <!-- SBYS - Cenário / At: 7/1/16: <a href="https://www.dropbox.com/s/n914hio7nqvu3q0/SBYS%20-%20V2%20TerraSync%20Compatible.7z?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        SBYS - Posições de Estacionamento / At: 7/1/16: <a href="https://www.dropbox.com/s/l79yg6gb4x7pvuq/SBYS%20Parking%20Positions.7z?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br-->
+      </p>
+      <br>
+      <p align="center">
+        <b>Utilitários:</b><br><br>
+        FG - Utilitario para Ajuste de Sensibilidade do Mouse: <a href="https://www.dropbox.com/s/bkcsub2qhzg6wf0/FlightGear%20Mouse%20Sensitivity.7z?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+        FG - Utilitario para Apagar Arquivos Temporarios e Corrigir Erros: <a href="https://www.dropbox.com/s/anav8zt2sn4grcj/FlightGearCCleaner.7z?dl=1"><img src="img/download.png" title="Download" alt="download" width="24px" height="24px"/></a><br>
+      </p>
+      <br>
+      <p align="center" style="font-size: 12px;">O termo "At" se refere a ultima data em que o arquivo foi atualizado. Arquivos sem este termo possuem apenas uma versão ou são atualizados por terceiros.<br>Não temos quaisquer parcerias com o simulador de vôo FlightGear<br>Esquadrão Buldogue desde 12/2016</p>
+
+    </div>
+
+  <input type="radio" name="tabs" class="tabs" id="tab4">
+  <label for="tab4" title="Saiba quem somos">Quem Somos</label>
+  <div>
+   <h1 align="center">Quem somos</h1>
+   <p align="center">
+      Seja bem-vindo!<br>
+      Este é o site do Esquadrão Buldogue da FAB.<br>
+      Esquadrão formado por oficiais direto do comando aéreo da Academia da Força Aérea Brasileira, com o intuito de simular missões e treinos rotineiros da FAB.<br>
+      O esquadrão opera na região sudeste, tendo como bases aéreas: SBYS - SBGL - SBCT - SBGR<br>
+      O Esquadrão Buldogue está dividido nos seguintes departamentos:<br>
+      Comando Geral – Cpt-Jr / BR-RVD<br>
+      Transporte e Carga – Fabrici / BR-HFS<br>
+      Encarregados – BR-IZC / BR-GNS / BR-ENLA / Victor<br>
+      Serviços de Torre da Base Principal – Cpt-Jr</p>
+    <br>
+    <p align="center" style="font-size: 12px;">Não temos quaisquer parcerias com o simulador de vôo FlightGear<br>Esquadrão Buldogue desde 12/2016</p>
+  </div>
+
+</div>
+</body>
+</html>
